@@ -1,0 +1,1 @@
+print('Hello world!') #Pelo pythonm, o print é uma instrução denominado como função de saída.
