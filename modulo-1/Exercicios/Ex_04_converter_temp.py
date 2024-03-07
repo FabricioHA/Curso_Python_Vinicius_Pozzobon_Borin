@@ -9,7 +9,9 @@ while True:
     if not celsius.replace(".", "").isnumeric():
         print("Valores invalidos")
     
-    celsius = float(celsius)
+    else:
+        celsius = float(celsius)
+        break
 
 fahrenheit = (9*celsius)/5+32
 
