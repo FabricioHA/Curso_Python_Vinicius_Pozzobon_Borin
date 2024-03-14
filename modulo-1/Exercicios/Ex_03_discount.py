@@ -14,7 +14,10 @@ while True:
     else:
         price = float(price)
         discountPercentual = float(discountPercentual)
-        break
+        if not discountPercentual <= 100 or not discountPercentual >=0:
+            print("\nDesconto digitado fora do limite aceitavel\n")
+        else:
+            break
 
 discountValue = price * (discountPercentual/100)
 finalPrice = price - discountValue

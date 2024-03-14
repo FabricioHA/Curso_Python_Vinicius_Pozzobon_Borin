@@ -28,6 +28,7 @@ print("\nO paciente perderá %d dias ao fumar %d cigarros por dia" %(daysLost, t
 
 """
 Nessa lógica, precisamos saber quantos minutos um ano totalizara para sabermos quantos dias ele perdeu.
-a cada cigarro, ele perde 10 minutos, então multiplicaremos o número de cigarros vezes a quantidade de minutos perdidos, dando os minutos totais.
-depois, iremos dividir esses minutos em horas (60 minutos) para no fim dividirmos essas horas em dias (24 horas)
+a cada cigarro, ele perde 10 minutos, então multiplicaremos o número de cigarros vezes a quantidade de minutos perdidos, 
+dando os minutos totais. depois, iremos dividir esses minutos em horas (60 minutos) para no fim dividirmos essas 
+horas em dias (24 horas)
 """
